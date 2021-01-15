@@ -1,0 +1,232 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+/* Header starts */
+
+header{
+    padding: 10rem 0 6rem;
+    background: rgb(2,0,36);
+background: linear-gradient(216deg, rgba(2,0,36,1) 0%, rgba(124,64,122,1) 0%, rgba(92,77,122,1) 70%);
+}
+
+header h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+header p{
+    color: #b4a4bc;
+    font-weight: 500;
+    line-height: 2rem;
+    padding-bottom: 1.6rem;
+}
+
+.header-right{
+    border-left: 1px solid #b4a4bc;
+    padding-left: 4rem !important;
+}
+
+header button{
+    color: #fff;
+    background-color: #00bc8a;
+    border: none;
+    border-radius: 30px;
+    padding: 0.8rem 1.6rem;
+    font-weight: bolder;
+}
+
+/* Header ends*/
+
+/* Magna Starts */
+
+ul{
+    list-style-type: none;
+
+}
+
+li{
+    margin-bottom: 2.5rem;
+}
+
+.magna ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+
+
+.magna{
+    padding: 12rem 0;
+    border-bottom: 2px solid #dbdbdb;
+}
+
+.magna-left{
+    border-right: 1px solid #b4a4bc;
+}
+
+.magna h2{
+    margin: 0 0 3rem;
+    color: #666666;
+    font-weight: bold;
+}
+
+.magna p{
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.magna button{
+    color: #666666;
+    background: none;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    font-weight: bolder;
+    border: 1px solid #dbdbdb;
+}
+
+/* Magna Ends */
+
+/* Three pics starts */
+
+main{
+    background-color: #fafafa;
+    padding: 5rem 0;
+}
+
+main .pic-right{
+    padding: 8rem 0 8rem 3rem;
+}
+
+main h3{
+    color: #666666;
+    font-weight: bold;
+}
+
+main p{
+    line-height: 2.8rem;
+    margin: 2.6rem 0;
+}
+
+main button{
+    color: #666666;
+    background: none;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    font-weight: bolder;
+    border: 1px solid #dbdbdb;
+}
+
+.pic-row{
+    border-bottom: 1px solid #dbdbdb;
+    margin-bottom: 5rem;
+    background-color: #fff;
+}
+
+/* Three pics ends */
+
+/* Footer starts */
+
+footer{
+    padding: 6rem 0;
+}
+
+footer h2{
+    font-weight: bold;
+    color: #666666;
+    margin: 0;
+}
+
+footer p{
+    line-height: 2.5rem;
+    margin: 2.4rem 0;
+}
+
+footer button{
+    margin: 3rem 0;
+    color: #666666;
+    background: none;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    font-weight: bolder;
+    border: 1px solid #dbdbdb;
+}
+
+.footer-left{
+    border-right: 1px solid #dbdbdb;
+    padding-right: 3rem;
+}
+
+body > footer > div > div.row > div:nth-child(2) > ul > li.twitter > a:before {    
+    font-family: 'FontAwesome';
+    content: '\f099';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+
+body > footer > div > div.row > div:nth-child(2) > ul > li.facebook > a:before{
+    font-family: 'FontAwesome';
+    content: '\f09a';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+body > footer > div > div.row > div:nth-child(2) > ul > li.instagram > a:before{
+    font-family: 'FontAwesome';
+    content: '\f16d';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+body > footer > div > div.row > div:nth-child(2) > ul > li.information > a:before{
+    font-family: 'FontAwesome';
+    content: '\f0e0';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+body > footer > div > div.row > div:nth-child(2) > ul > li.address:before{
+    font-family: 'FontAwesome';
+    content: '\f015';
+    margin:0 5px 0 -15px;
+    color: #00bc8a;
+}
+/* Footer ends */
+
+/* Media Queries */
+
+@media only screen and (max-width:990px){
+    .header-right{
+        border-left: 0;
+        padding: 0 15px !important;
+    }
+
+    .magna-left{
+        border-right: 0;
+    }
+
+    ul{
+        margin-top: 3rem;
+    }
+
+    li{
+        margin-left: -26px;
+    }
+
+    .footer-left{
+        border-right: 0;
+        padding-right: 0rem;
+    }
+}
+
+
+
+
+
